@@ -1,0 +1,7 @@
+{
+    "editor.stickyScroll.enabled": true,
+    "editor.formatOnSave": true,
+    "[rs]": {
+        "editor.formatOnSave": true,
+    }
+}
