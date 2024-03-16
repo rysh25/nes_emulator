@@ -13,11 +13,11 @@ pub struct OpCode {
 impl OpCode {
     fn new(code: u8, mnemonic: &'static str, len: u8, cycles: u8, mode: AddressingMode) -> Self {
         OpCode {
-            code: code,
-            mnemonic: mnemonic,
-            len: len,
-            cycles: cycles,
-            mode: mode,
+            code,
+            mnemonic,
+            len,
+            cycles,
+            mode,
         }
     }
 }
